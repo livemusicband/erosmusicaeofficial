@@ -1,15 +1,24 @@
+/* Tags */
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(#14aef5, #000000);
+}
+
 h1 {
   color: white;
   margin-left: 20px;
 }
 
+span {
+  font-size: larger;
+}
+
+/* Classes */
+
 .btn {
   height: 60px;
   display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-span {
-  font-size: larger;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

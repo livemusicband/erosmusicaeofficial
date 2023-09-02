@@ -1,4 +1,9 @@
-/* Tags */
+/* Tags */*
+
+html, body {
+  height: 100%;
+}
+
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -21,4 +26,31 @@ span {
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: white;
+}
+
+.btn:hover {
+  color: #fff !important;
+  text-decoration: none;
+  border-color: white !important;
+}
+
+.btn-facebook {
+  background-color: #3b5999;
+  border-color: #3b5999;
+}
+
+.btn-instagram {
+  background-color: #e4405f;
+  border-color: #e4405f;
+}
+
+.btn-youtube {
+  background-color: #cd201f;
+  border-color: #cd201f;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+  border-color: #25d366;
 }

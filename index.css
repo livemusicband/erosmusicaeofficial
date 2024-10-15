@@ -7,14 +7,14 @@ html, body {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background: -moz-linear-gradient(black, transparent); /* FF 3.6+ */  
-  background: -ms-linear-gradient(black, transparent); /* IE10 */  
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff)); /* Safari 4+, Chrome 2+ */  
-  background: -webkit-linear-gradient(black, transparent); /* Safari 5.1+, Chrome 10+ */  
-  background: -o-linear-gradient(black, transparent); /* Opera 11.10 */  
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=transparent); /* IE6 & IE7 */  
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=transparent)"; /* IE8+ */  
-  background: linear-gradient(black, transparent); /* the standard */  
+  background: -moz-linear-gradient(#14aef5, #000000); /* FF 3.6+ */
+  background: -ms-linear-gradient(#14aef5, #000000); /* IE10 */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #14aef5), color-stop(100%, #000000)); /* Safari 4+, Chrome 2+ */
+  background: -webkit-linear-gradient(#14aef5, #000000); /* Safari 5.1+, Chrome 10+ */
+  background: -o-linear-gradient(#14aef5, #000000); /* Opera 11.10 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000'); /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000')"; /* IE8+ */
+  background: linear-gradient(#14aef5, #000000); /* standard */
   z-index: 1;
 }
 
